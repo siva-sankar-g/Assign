@@ -6,7 +6,7 @@
         <title>Class Registration </title>
     </head>
     <body>
-        <div class="base-container" style="width:40%;height:800px;border:1px solid royalblue;margin:0px auto;">
+        <div class="base-container" style="width:40%;height:800px;margin:0px auto;">
             <div class="header-container" style="padding:15px 0px 10px;">
                 <h1 style="line-height:0px;"> Class Registration</h1>
                 <P>Fill out the form carefully for registration</p>
@@ -15,7 +15,7 @@
             <div class="gender-container" style="padding:10px 0px;">
                 <div style="font-weight: bolder;padding:10px 0px;letter-spacing:1px;font-size:1.15rem;"><label >Gender</label></div>
                 <div>
-                    <select style="padding:3px 30px;">
+                    <select style="padding:3px 30px; border-radius:10px;" >
                         <option></option>    
                         <option>Male</option>
                         <option>Female</option>
@@ -23,13 +23,46 @@
                     </select>
                 </div>
             </div>
-            <div class="name-container" style="padding:15px 0px;font-weight: bolder; font-size:1.12rem;">
-                <div style="padding-bottom:10px;"> <label>Student Name</label></div>
+            <div class="name-container" style="margin-bottom:20px;">
+                <div style="padding:10px 0px;font-weight: bolder; font-size:1.12rem;"> <label>Student Name</label></div>
                 <div>
-                    <input type="text" >
-                    <input type="text" style="margin-left:20px;">
-                    <input type="text" style="margin-left:20px;">
+                    <input type="text" style="border-radius:10px;">
+                    <input type="text" style="margin-left:20px; border-radius:10px;">
+                    <input type="text" style="margin-left:20px;border-radius:10px;">
                 </div>
+                <div>
+                    <span style="">firstName</span>
+                    <span style="margin-left:111px;">middleName</span>
+                    <span style="margin-left:91px;">lastName</span>
+                </div>
+            </div>
+            <div class="email-container" style="margin-bottom:20px;">
+                    <div style="padding:10px 0px;font-weight: bolder; font-size:1.12rem;"> <label>Student E-mail</label></div>
+                    <input type="email" size="40"placeholder="ex:myname@example.com"style="padding:10px;border-radius:10px;font-size:1rem;">
+            </div>
+            <div class="studentid-container" style="margin-bottom:20px;">
+                    <div style="padding:10px 0px;font-weight: bolder; font-size:1.12rem;"> <label>Student Id</label></div>
+                    <input type="text" style="border-radius:10px;padding:5px;" >
+            </div>
+            <div class="classlist-container" style="margin-bottom:60px;">
+                <div style="padding:10px 0px;font-weight: bolder; font-size:1.12rem;"> <label>List of Classes</label></div>
+                <div>
+                    <select style="padding:3px 40px; border-radius:10px;" >
+                        <option></option>    
+                        <option>Englis 101</option>
+                        <option>English 102</option>
+                        <option>English 103</option>
+                        <option>Maths 101</option>
+                        <option>Maths 102</option>
+                        <option>Maths 103</option>
+                        <option>Science</option>
+                        <option>Social</option>
+                        <option>Telugu</option>
+                    </select>
+                </div>
+            </div>
+            <div style="text-align:center;"> 
+                <input type="submit" value="Register Class" style="text-align:center;padding:15px;border-radius:10px;"/>
             </div>
         </div>
     </body>
