@@ -1,0 +1,347 @@
+body {
+    margin:0px;
+    background-color:#F5F5F5;
+}
+.base-container{
+    display:flex;
+}
+
+         /* ..........Aside Navigation bar CSS ..............*/
+
+.aside-nav-container{
+    width: 300px;
+    height:2200px;
+    background-color:#353D53;
+    box-sizing:border-box;
+    padding-left:53px;
+} 
+.space1{
+    margin-left:-36px;
+}
+.space2{
+    margin-left:10px;
+}
+.aside-header{
+    color:white;
+    font-size:1.95rem;
+    padding:20px 0 28.8px 53px;
+    background:#2D3447;
+    margin-left:-53px;
+
+}
+.list1{
+    padding:0 0 1.8rem;
+}
+.main-list-header{
+    color:white;
+    margin-left:-42px;
+    font-size:1.2rem;
+    padding-top:7px;
+    font-weight:600;
+}
+.main-list>ul{
+    list-style:none;
+    margin:0;
+    padding: 0;
+    color:white;
+    font-size:1.15rem;
+    font-weight:550;
+}
+.main-list>ul>li{
+    padding:0.85rem 0;
+}
+.main-list>ul>li:hover{
+    background:#2D3447;
+    margin-left:-53px;
+    padding-left:53px;
+}
+.components-list-header{
+    color:white;
+    margin-left:-42px;
+    font-size:1.2rem;
+    font-weight:600;
+}
+.components-list>ul{
+    list-style:none;
+    margin:0;
+    padding: 0;
+    color:white;
+    font-size:1.15rem;
+    font-weight:550;
+}
+.components-list>ul>li{
+    padding:1.04rem 0;
+}
+.components-list>ul>li:hover{
+    background:#2D3447;
+    margin-left:-53px;
+    padding-left:53px;
+}
+.nav-footer{
+    color:white;
+    font-size:1.4rem;
+    background: #2D3447;
+    margin-left:-53px;
+    position:fixed;
+    bottom:0;
+    display:block;
+    width:265px;
+    box-sizing: border-box;
+}
+.online-container,.nav-footer1{
+    display:flex;
+    align-items:center;
+}
+.online-circle{
+    width:13px;
+    height:13px;
+    background:green;
+    border-radius: 30px;
+    margin-right:6px;
+}
+
+                       /* .........Main Body CSS .........*/
+
+.main-body-container {
+    height:800px;
+    width:100%;
+}
+.search-container{
+    background:#FFFFFF;
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.search-field,.icons-container,.box,.persons{
+    display:flex;
+    align-items:center;
+}
+.search-field>input{
+    margin-left:20px;
+    width: 200px;
+    height:30px;
+    outline:none;
+    border:none;
+    font-size:18px;
+}
+.icons-container>img,.icons-container>span{
+    margin-right:20px;
+    font-size:1.4rem;
+}
+#img-circle{
+    border:1px solid green;
+    border-radius:30px;
+}
+.boxes-body-container{
+    padding:45px 25px 0;
+}
+.boxes-container{
+    display:flex;
+    justify-content:space-around;
+}
+.boxes-container>div{
+    width: 18%;
+    height:150px;
+    background:#FFFFFF;
+}
+.icon-size {
+    font-size:50px;
+    margin-left:20px;
+}
+.revenue-feed-container{
+    padding:40px 4px;
+    display:flex;
+    justify-content:space-around;
+
+}
+.revenue-container{
+    width:60%;
+    height:500px;
+    background:#FFFFFF;
+    
+}
+.yearly-revenue,.feed-container,.c-name{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px;
+    font-size:1.12rem;
+}
+.yearly-revenue div:nth-child(2){
+    background:#00BFC4;
+    padding:5px;
+    border-radius:4px;
+    color:white;
+}
+.daily-feed-container{
+    width:37%;
+    height:500px;
+    background:#FFFFFF;
+}
+.feed-container div:nth-child(2){
+    background:#6853FF;
+    padding:5px;
+    border-radius:4px;
+    color:white;
+}
+.img-circle{
+    border:1px solid green;
+    border-radius:30px;
+    margin:0 10px 0 20px;
+}
+.persons>div{
+    margin-left:20px;
+    font-size:1.2rem;
+    font-weight:400;
+}
+.feed-footer{
+    background:#00BFC4;
+    text-align:center;
+    padding:8px;
+    margin:45px 15px;
+    border-radius:8px;
+    color:#FFFFFF;
+}
+.calendar-sales-appointments-container,.latest-projects-revenue-container{
+    display:flex;
+    justify-content:space-around;
+    padding:0px 18px;
+}
+.calendar,.sales,.appointments{
+    width:31%;
+    height:600px;
+    background:#FFFFFF;
+}
+.month-name{
+    display:flex;
+    justify-content:space-around;
+    font-size:1.15rem;
+    margin:60px 0;
+}
+.table-calendar>table th, .table-calendar>table td{
+    text-align:center;
+    vertical-align;center;
+    padding:18px;
+}
+.cal{
+    background:#00BFC4;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+}
+
+.sales div>img{
+    width:300px;
+    height:200px;
+    margin-bottom:15px;
+}
+.table-align>table{
+    margin:0px 15px;
+    border-collapse: collapse;
+    width:90%;
+}
+.table-align >table th,.table-align >table td{
+    border-bottom:2px solid #DEE2E6;
+    margin-right:15px;
+    text-align:center;
+    padding:15px;
+}
+.source1{
+    display:flex;
+    align-items:center;
+    margin-left:50px;
+    
+}
+.square{
+    width:15px;
+    height:15px;
+    border-radius:3px;
+    margin-right:5px;
+}
+.meeting{
+    font-size:1.5rem;
+    background:#F8F9FA;
+    padding:25px 50px;
+}
+.margin-circles-text-container{
+    margin:20px;
+    display:flex;
+    align-items:center;
+    height:100px;
+
+}
+.circles{
+    width:20px;
+    height:20px;
+    border:4px solid green;
+    border-radius:70px;
+    margin-top:15px;
+}
+.margin{
+    border-left:2px solid #DEE2E6;
+    margin-left:13px;
+    height:90px;
+}
+.text{
+    margin:0px 0 0 15px;
+}
+
+.text div:first-child{
+    font-size:1.14rem;
+}
+
+.latest-projects{
+    width:64%;
+    height:590px;
+    background:#FFFFFF;
+    margin:35px 0 0 -4px;
+}
+.sales-revenue{
+    width: 31%;
+    height:590px;
+    background:#FFFFFF;
+    margin-top:35px;
+}
+.projects-data>table,.table-calendar>table{
+    border-collapse: collapse;
+    width:100%;
+}
+.projects-data > table tr:nth-child(even){
+    background:#F5F5F5;
+}
+.projects-data >table th,.projects-data >table td{
+    text-align:center;
+    vertical-align:center;
+    padding:20px;
+}
+.done1{
+    background:#22D07F;
+    color:white;
+    padding:4px 10px 4px 6px;
+    border-radius:5px;
+}
+.prog{
+    background:#FFC800;
+    color:white;
+    padding:4px 10px 4px 6px;
+    border-radius:5px;
+}
+.cancel{
+    background:#FF0046;
+    color:white;
+    padding:4px 10px 4px 6px;
+    border-radius:5px;
+}
+.body-footer{
+    margin-top: 60px;
+    background:#FFFFFF;
+    height:70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 25px;
+}
+.body-footer span{
+    margin-left:15px;
+}
