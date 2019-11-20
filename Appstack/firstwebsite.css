@@ -17,9 +17,12 @@ body {
 } 
 .space1{
     margin-left:-36px;
+    opacity:0.5;
+
 }
 .space2{
     margin-left:10px;
+    opacity:0.8;
 }
 .aside-header{
     color:white;
